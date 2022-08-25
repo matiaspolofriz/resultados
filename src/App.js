@@ -37,7 +37,7 @@ function App() {
 
       <div className="contenedor-principal">
         <Contador1 numClics1={numClics1} />
-        <Boton1 texto="GOL" esBotonDeClic={true} manejarClic1={manejarClic1} />
+        <Boton1 texto="GOL." esBotonDeClic={true} manejarClic1={manejarClic1} />
         <Boton1
           texto="Reiniciar"
           esBotonDeClic={false}
