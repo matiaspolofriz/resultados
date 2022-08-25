@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1b1b32;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.casla-logo-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.casla-logo {
+  height: 120px;
+}
+
+.contenedor-principal {
+  height: 550px;
+  min-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-padre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
